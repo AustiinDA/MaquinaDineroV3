@@ -23,6 +23,10 @@ namespace MaquinaDineroV3
         public MainWindow()
         {
             InitializeComponent();
+            Panel = new DockPanel();
+            
+            
+
         }
     }
 }
