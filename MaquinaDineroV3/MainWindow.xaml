@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MaquinaDineroV3"
         xmlns:ViewModel="clr-namespace:MaquinaDineroV3.ViewModel" x:Class="MaquinaDineroV3.MainWindow"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         mc:Ignorable="d"
         Title="MainWindow" Height="437" Width="827" AllowsTransparency="False" WindowStyle="SingleBorderWindow" ResizeMode="CanResizeWithGrip" Foreground="{x:Null}" Background="#FF363635">
 
@@ -20,7 +21,20 @@
             <RowDefinition Height="299*" />
         </Grid.RowDefinitions>
         <Border x:Name="miBorde1"  BorderThickness="2" Background="#FF474747" Margin="0,0,0,0" Grid.Column="0" Grid.Row="1" >
-                <Button Name="Bt1" Content="Button" Height="56" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+            <StackPanel Height="295" VerticalAlignment="Bottom">
+                <TextBlock x:Name="tBLock" 
+                           Text="Clientes"
+                           
+                           HorizontalAlignment="Center"
+                           Margin="10,0,0,0" />
+                <fa:IconImage x:Name="icBtn2" 
+                              Icon="Coins" 
+                              Foreground="White" 
+                              Width="160" 
+                              Height="60"
+                              Margin="3,3,3,3" />
+
+            </StackPanel>
         </Border>
         <Border x:Name="miBorde2"  BorderThickness="2" Background="#FF474747" Margin="0,0,0,0" Grid.Column="1" Grid.RowSpan="1"/>
         <Border x:Name="miBorde3"  BorderThickness="2" Background="#FF474747" Margin="0,0,0,0" Grid.Column="2" Grid.RowSpan="1"/>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using FontAwesome.Sharp;
 
 namespace MaquinaDineroV3
 {
@@ -23,10 +24,11 @@ namespace MaquinaDineroV3
         public MainWindow()
         {
             InitializeComponent();
-            Panel = new DockPanel();
             
             
 
         }
+
+     
     }
 }
